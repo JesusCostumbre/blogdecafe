@@ -85,7 +85,7 @@ img{
 
 .header__texto{
     text-align: center;
-    color: var(--white);
+    color: var(--white); 
     margin-top: 5rem;
 }
 
@@ -95,15 +95,13 @@ img{
     }
 }
 
-.barra{
-    padding-top: 4rem;
-}
 
 @media (min-width: 768px){
-    .contenedor{
+    .barra{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-top: 4rem;
     }
 }
 
@@ -215,11 +213,9 @@ img{
 
 /* Sobre Nosotros */
 
+    
 @media (min-width: 768px){
 
-    .contenedor{
-        display:block;
-    }
     .sobre-nosotros{
         display: grid;
         grid-template-columns: repeat(2, 1fr);

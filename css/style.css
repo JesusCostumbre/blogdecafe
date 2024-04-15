@@ -75,6 +75,13 @@ img{
 }
 
 /* header */
+.webp .header{
+    background-image: url(../img/banner.webp);
+}
+
+.no-webp .header{
+    
+}
 .header{
     background-image: url(../img/banner.jpg);
     height: 60rem;
@@ -289,6 +296,3 @@ img{
     border: 1px solid var(--grey);
 }
 
-.campo__field--textarea{
-
-}
